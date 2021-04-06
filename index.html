@@ -1,1 +1,171 @@
 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Shop Online</title>
+    
+     <!-- Khai bao duong dan den css -->
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<body>
+	<div id="website">
+    	
+        <!-- PH?N TOP WEBSITE -->
+    	<div id="top"> 
+        	<!-- Bên trái c?a ph?n Top -->
+        	<div id="top_left">
+            	<a href="https://www.google.com/"><img src="images/google.png"/></a>
+            	<a href="#"><img src="images/gmail.png"/></a>
+            	<a href="#"><img src="images/facebook.png"/></a>
+            </div>
+            <!-- Bên ph?i c?a ph?n Top-->
+            <div id="top_right">
+            	<ul>
+            		<li><a href="#">Ðang nh?p</a></li>
+                    <li>|</li>
+                	<li><a href="#">Ðang ký</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- PH?N HEADER WEBSITE-->
+        <div id="header">
+        	<!-- div th? 1: hình logo -->
+            <div style="float:left; width:500px; height:100px; 
+                	margin:15px 0 0 50px"> 
+           		<img src="images/logoshop.png" width="500" height="100"/>
+            </div>
+
+            <!-- div th? 2: gi? hành và thông tin gi? hàng -->
+            <div id="shopcart">
+            	<img src="images/giohang.png"/>	
+                <div id="info_cart">
+                	<p>0 s?n ph?m</p>
+                 	<p>0 d</p>
+                </div> 
+			</div>
+
+            <!-- div th? 3: s? di?n tho?i và tìm ki?m -->
+            <div id="phone_search" style="float:right; width:400px; height:60px">
+            	<div id="header_phone">Support: 0703123456</div>
+                <div id="header_search">
+                	<!-- T?o form tìm ki?m-->
+                	<form id="search_form">
+                 		<input type="text" id="txtsearch" placeholder="Search for here..."/>
+                  		<button type="submit" id="btnsearch"></button>
+					</form>
+                </div>
+			</div>
+        </div>
+        <!-- PH?N MENU WEBSITE -->
+        <div id="menu">   
+        	<ul>
+            	<img src="images/home.png" />
+            	<li style="border-left:1px dotted #999"><a href="#">Trang ch?</a></li>
+                <li><a href="gioi_thieu.html" target="iframe_main">Gi?i thi?u</a></li>
+                <li><a href="thoi_trang_nam.html" target="iframe_main">Th?i Trang Nam</a></li>
+                <li><a href="thoi_trang_nu.html"target="iframe_main">Th?i Trang N?</a></li>
+                <li><a href="#">Hu?ng d?n mua hàng</a></li>
+                <li><a href="#">Liên h?</a></li>
+                <li><a href="#">Tr? giúp</a></li>
+            </ul>
+        </div>
+        <!-- PH?N MAIN WEBSITE -->
+        <div id="main"> 
+        	<div id="main_left">
+            	<div id="menu_left">
+                	<ul>
+                    	<li><a href="#">Qu?n áo n?</a>
+							<ul class="submenu">
+                             	<li><a href="#">Áo thun n?</a>
+                               	<li><a href="#">Áo so mi n?</a>
+                            	<li><a href="#">Áo khoát, vest n?</a>
+                             	<li><a href="#">Váy d?m</a>
+                              	<li><a href="#">Qu?n jean</a>
+                          	</ul>
+                        </li>
+                        <li><a href="#">Giày dép n?</a>
+                         	<ul class="submenu">
+                               	<li><a href="#">Giày cao gót</a>
+                               	<li><a href="#">Giày búp bê</a>
+                              	<li><a href="#">Giày sandal n?</a>
+                               	<li><a href="#">Giày bata n?</a>
+                              	<li><a href="#">Giày th? thao n?</a>
+                          	</ul>
+                    	</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="main_right">
+            
+            	<iframe src="gioi_thieu.html" name="iframe_main" 
+            		style=" width:749px; height:800px; border:none;" marginwidth="20px">
+            	</iframe>
+            
+            	<!--
+         		<div id="products">
+                    <ul>
+                        <li>
+                            <div class="content">
+                                <a href="#">
+                                	<img src="images/products/K1CLT018.jpg" width="210" height="280" />
+                                  	<p class="title">Áo thun dáng dài</p>
+                             	</a>
+                               	<p class="price">450.000d</p>
+                          	</div>
+                      	</li>  
+                       <li>
+                       		<div class="content">
+                                <a href="#">
+                                    <img src="images/products/B1CLT174_210.jpg" width="210" height="280" />
+                                    <p class="title">Áo thun dáng dài</p>
+                                </a>
+                                <p class="price">350.000d</p>
+                            </div>
+                   		</li>
+                        <li>
+                            <div class="content">
+                                <a href="#">
+                                    <img src="images/products/mau2.png" width="210" height="280" />
+                                    <p class="title">Áo thun ng?n</p>
+                                </a>
+                                <p class="price">300.000d</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="content">
+                                <a href="#">
+                                    <img src="images/products/198.jpg" width="210" height="280"  />
+                                    <p class="title">Áo vest</p>
+                                </a>
+                                <p class="price">450.000d</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="content">
+                                <a href="#">
+                                    <img src="images/products/B1OLT017_210.jpg" width="210" height="280"  />
+                                    <p class="title">Áo d?m</p>
+                                </a>
+                                <p class="price">550.000d</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="content">
+                                <a href="#">
+                                    <img src="images/products/B2CHT054.jpg" width="210" height="280" />
+                                    <p class="title">Áo thun thu dông</p>
+                                </a>
+                                <p class="price">200.000d</p>
+                            </div>
+                        </li>             
+                   	</ul>
+              	</div>	
+                -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
