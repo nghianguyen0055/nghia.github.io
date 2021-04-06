@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-/*T?o 1 s? quy d?nh chung cho trang web*/
+/*Tạo 1 số quy định chung cho trang web*/
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: small;
@@ -9,17 +9,17 @@ body {
 }
 #website {
   width: 1040px;
-  margin: auto; /*Canh gi?a website*/
+  margin: auto; /*Canh giữa website*/
   background-color: #fff;
   /*height:800px;	*/
 }
-/*Kho?ng c�ch gi?a c�c th? html trong web b?ng 0*/
+/*Khoảng cách giữa các thẻ html trong web bằng 0*/
 * {
   margin: 0px;
   padding: 0px;
 }
 
-/* PH?N TOP C?A WEBSITE ================================================*/
+/* PHẦN TOP CỦA WEBSITE ================================================*/
 #top {
   width: 1000px;
   margin: auto;
@@ -27,32 +27,32 @@ body {
   background-color: #f4f4f4;
 }
 #top_left {
-  float: left; /* Th? div id=top_left n?m b�n tr�i */
-  margin: 4px 0 0 20px; /* Th? div c�ch l? tr�n 4 v� tr�i 20*/
+  float: left; /* Thẻ div id=top_left nằm bên trái */
+  margin: 4px 0 0 20px; /* Thẻ div cách lề trên 4 và trái 20*/
 }
 #top_right {
-  float: right; /* Th? div id=top_right n?m b�n ph?i */
-  margin: 5px 20px 0 0px; /* Th? div c�ch l? tr�n 5 v� ph?i 20*/
+  float: right; /* Thẻ div id=top_right nằm bên phải */
+  margin: 5px 20px 0 0px; /* Thẻ div cách lề trên 5 và phải 20*/
 }
 a {
-  text-decoration: none; /*B? g?ch du?i c?a t?t c? th? a trong website*/
+  text-decoration: none; /*Bỏ gạch dưới của tất cả thẻ a trong website*/
 }
 #top_right ul {
-  list-style-type: none; /*T?o ds kh�ng d?u*/
+  list-style-type: none; /*Tạo ds không dấu*/
 }
 #top_right ul li {
-  float: left; /* C�c li n?m 1 h�ng ngang*/
-  margin-right: 5px; /* C�c li c�ch nhau 5px*/
-  color: #999; /* �?i m�u x�m du?ng g?ch | */
+  float: left; /* Các li nằm 1 hàng ngang*/
+  margin-right: 5px; /* Các li cách nhau 5px*/
+  color: #999; /* Đổi màu xám đường gạch | */
 }
 #top_right ul li a {
-  color: #999; /* �?i m�u x�m ch? c?a th? a*/
+  color: #999; /* Đổi màu xám chữ của thẻ a*/
 }
 #top_right ul li a:hover {
-  color: #00f; /* R� chu?t v�o th? a d?i m�u xanh*/
+  color: #00f; /* Rê chuột vào thẻ a đổi màu xanh*/
 }
 
-/*PH?N HEADER C?A WEBSITE==================================*/
+/*PHẦN HEADER CỦA WEBSITE==================================*/
 #header {
   width: 1000px;
   margin: auto;
@@ -64,7 +64,7 @@ a {
   width: 180px;
   height: 67px;
   /*border:1px solid #000;*/
-  position: relative; /*div shopcart c? d?nh*/
+  position: relative; /*div shopcart cố định*/
 }
 #shopcart img {
   width: 180px;
@@ -72,52 +72,52 @@ a {
 }
 #info_cart {
   position: absolute;
-  z-index: 99; /*div info-cart n?m l�n*/
-  top: 0px; /*div info-cart n?m l�n c�ch top shopcart l� 0*/
-  margin: 25px 0 0 100px; /*c�ch l? info-cart v?i shopcart*/
+  z-index: 99; /*div info-cart nằm lên*/
+  top: 0px; /*div info-cart nằm lên cách top shopcart là 0*/
+  margin: 25px 0 0 100px; /*cách lề info-cart với shopcart*/
   text-align: center;
-  color: #f00; /*canh gi?a ch?a trong div info-cart*/
+  color: #f00; /*canh giữa chữa trong div info-cart*/
 }
 #header_phone {
   width: 150px;
   height: 30px;
   /*border:1px solid #000;*/
-  float: left; /* 2 div header_phone, header_search tr�n 1 h�ng*/
+  float: left; /* 2 div header_phone, header_search trên 1 hàng*/
   margin-top: 28px;
-  background: url(images/call.png) no-repeat; /* t?o h�nh n?n & k cho h�nh l?p l?i*/
-  padding-left: 30px; /* s? di?n tho?i c�ch l? tr�i 30px*/
+  background: url(images/call.png) no-repeat; /* tạo hình nền & k cho hình lặp lại*/
+  padding-left: 30px; /* số điện thoại cách lề trái 30px*/
   font-size: 14px;
   color: #00f;
-  line-height: 30px; /* Canh gi?a chi?u cao*/
+  line-height: 30px; /* Canh giữa chiều cao*/
 }
 #header_search {
   width: 216px;
   height: 30px;
   /*border:1px solid #000;*/
-  float: left; /* 2 div header_phone, header_search tr�n 1 h�ng*/
+  float: left; /* 2 div header_phone, header_search trên 1 hàng*/
   margin-top: 28px;
   background: #f7f7f7;
-  position: relative; /*c? d?nh d? hi?u ch?nh subsearch*/
+  position: relative; /*cố định để hiệu chỉnh subsearch*/
 }
 #txtsearch {
   width: 180px;
   height: 29px;
-  border: 0; /*b? vi?n khung search*/
+  border: 0; /*bỏ viền khung search*/
   background: #f7f7f7;
 }
 #btnsearch {
   width: 34px;
   height: 30px;
-  /* n?m tr�n div header_search c�ch top v� right 0px*/
+  /* nằm trên div header_search cách top và right 0px*/
   position: absolute;
   z-index: 99;
   top: 0;
   right: 0;
-  border: 0; /*m?t vi?n button*/
+  border: 0; /*mất viền button*/
   background: url(images/toolbar_find.png) no-repeat;
-  cursor: pointer; /*r� chu?t v�o xu?t hi?n b�n tay*/
+  cursor: pointer; /*rê chuột vào xuất hiện bàn tay*/
 }
-/* PH?N MENU ============================*/
+/* PHẦN MENU ============================*/
 #menu {
   width: 1000px;
   margin: 15px auto;
@@ -126,21 +126,21 @@ a {
   background: rgb(238, 75, 75);
 }
 #menu ul li {
-  float: left; /*c�c li n?m tr�n 1 h�ng*/
-  border-right: 1px dotted #fff; /*T?o du?ng ngan c�ch gi?a c�c li*/
+  float: left; /*các li nằm trên 1 hàng*/
+  border-right: 1px dotted #fff; /*Tạo đường ngăn cách giữa các li*/
   height: 42px;
 }
 #menu ul {
-  list-style-type: none; /*t?o danh s�ch kh�ng d?u*/
+  list-style-type: none; /*tạo danh sách không dấu*/
 }
 #menu ul li a {
-  /*kho?ng c�ch t? n?i dung(ch?) d?n l? tr�i & ph?i c?a m?i li 25px*/
+  /*khoảng cách từ nội dung(chữ) đến lề trái & phải của mỗi li 25px*/
   padding: 0 25px 0 25px;
   color: #fff;
   background: rgb(238, 75, 75);
   font-weight: bold;
-  line-height: 42px; /*n?i dung canh gi?a chi?u cao*/
-  display: inline-block; /*t?o kh?i ngang*/
+  line-height: 42px; /*nội dung canh giữa chiều cao*/
+  display: inline-block; /*tạo khối ngang*/
 }
 #menu img {
   float: left;
@@ -150,7 +150,7 @@ a {
   background: #999;
   color: #00c;
 }
-/* PH?N MAIN ============================*/
+/* PHẦN MAIN ============================*/
 #main {
   width: 1000px;
   margin: 15px auto;
@@ -168,15 +168,15 @@ a {
   width: 200px;
   /*height:300px;*/
   border: 1px solid #000;
-  margin: 10px 0 0 14px; /*c�ch tr�n 10, tr�i 14*/
+  margin: 10px 0 0 14px; /*cách trên 10, trái 14*/
   border: 1px solid #cccccc;
-  border-radius: 6px; /*bo tr�n g�c 1 d? 6px*/
+  border-radius: 6px; /*bo tròn góc 1 độ 6px*/
 }
 #menu_left ul {
   list-style-type: none;
 }
 #menu_left > ul {
-  /* d?u ">" ch? ?nh hu?ng ul d?u ti�n, k ?nh hu?ng ul th? 2*/
+  /* dấu ">" chỉ ảnh hưởng ul đầu tiên, k ảnh hưởng ul thứ 2*/
   padding: 10px 20px 10px 20px;
 }
 #menu_left li {
@@ -190,21 +190,21 @@ a {
 }
 .submenu li {
   padding-left: 30px;
-  background: url(images/arrow.png) no-repeat 15px 10px; /*t?o h�nh n?n v� k l?p l?i*/
+  background: url(images/arrow.png) no-repeat 15px 10px; /*tạo hình nền và k lặp lại*/
 }
 #menu_left a {
-  color: #00f; /*m�u xanh*/
+  color: #00f; /*màu xanh*/
 }
 #menu_left a:hover {
-  color: #f1004c; /*m�u d?*/
-  cursor: pointer; /*h�nh b�n tay*/
+  color: #f1004c; /*màu đỏ*/
+  cursor: pointer; /*hình bàn tay*/
 }
 /* 6.2. MAIN RIGHT ==================================================*/
 ul {
-  list-style-type: none; /*b? d?u ch?m tr�n d?u danh s�ch icon*/
+  list-style-type: none; /*bỏ dấu chấm tròn đầu danh sách icon*/
 }
 a {
-  /*t?t c? g?ch du?i c?a th? a d?u du?c b? di trong web n�y*/
+  /*tất cả gạch dưới của thẻ a đều được bỏ đi trong web này*/
   text-decoration: none;
 }
 #main_right {
@@ -216,7 +216,7 @@ a {
   margin-left: 20px;
 }
 #products {
-  margin-left: 17px; /*div products c�ch div main-right 17px*/
+  margin-left: 17px; /*div products cách div main-right 17px*/
 }
 #products ul li {
   width: 230px;
@@ -244,6 +244,5 @@ a {
 }
 #products ul li:hover {
   background: #ccc;
-  box-shadow: 0 0 5px #2c2c30; /*d? b�ng*/
+  box-shadow: 0 0 5px #2c2c30; /*đổ bóng*/
 }
-
